@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jogo dos Balões</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1>Joguinho dos Balões</h1>
+
+  <div id="score">Pontuação: 0</div>
+
+  <button id="startBtn">Começar</button>
+
+  <div id="audioStatus" aria-live="polite"></div>
+
+  <div id="gameArea"></div>
+
+  <!-- Som POP -->
+  <audio id="popSound" preload="auto" playsinline>
+    <source src="sounds/pop.mp3" type="audio/mpeg">
+    <source src="sounds/pop.wav" type="audio/wav">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
