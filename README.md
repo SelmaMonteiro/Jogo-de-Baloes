@@ -20,13 +20,15 @@ Este repositório está pronto para GitHub Pages.
 
 Passos:
 - Em GitHub → `Settings` → `Pages`:
-  - "Source": "Deploy from a branch"
+  - "Source": "GitHub Actions" (ou "Deploy from a branch")
   - "Branch": `main`
   - "Folder": `/ (root)`
 - Salve e aguarde 1–2 minutos.
 
 URL esperada:
 - `https://selmemonteiro.github.io/Jogo-de-Baloes/`
+
+Status de build: publicado via GitHub Actions (workflow `deploy-pages`).
 
 ## Estrutura
 ```
