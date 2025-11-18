@@ -3,7 +3,7 @@
 Um joguinho simples e colorido para o público infantil: estoure os balões e marque pontos. Inclui som de estouro com fallback, funcionando em PC e celular.
 
 ## Como jogar
-- Clique em "Começar".
+- Clique em "Começar"...
 - Toque ou clique nos balões para estourar.
 - Cada estouro aumenta a pontuação.
 
